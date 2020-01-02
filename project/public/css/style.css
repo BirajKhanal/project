@@ -1,0 +1,104 @@
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "montserrat", sans-serif;
+}
+
+/*background image of car*/
+#bg {
+    background: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-y: 200px;
+    background-position-x: 800px;
+
+}
+
+/*To remove the underline effect of link*/
+.navbar li a {
+    text-decoration: none;
+}
+
+/*To remove the bullet of unordered list*/
+.navbar li {
+    list-style-type: none;
+}
+
+/*To bring the navbar down*/
+.head {
+    padding-top: 25px;
+}
+
+/*To position the navbar*/
+nav {
+    position: relative;
+    width: calc(100% - 60px);
+    margin: 0 auto;
+    padding: 3px 0;
+    background: rgb(40, 60, 77);
+    text-align: right;
+    padding-right: 1%;
+}
+
+/*for logo to be center of navbar*/
+.logo {
+
+    float: left;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 2%;
+}
+
+.logo img {
+    width: 35px;
+    height: 17px;
+}
+
+/*For list to in horizontal form*/
+.navbar li {
+    display: inline-block;
+}
+
+/*Navbar to be as it looks*/
+.navbar a {
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 25px;
+    font-size: 10px;
+    line-height: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+/*For the effect when hover over right side text in menu bar */
+.navbar a:hover {
+    background: tomato;
+    color: #fff;
+}
+
+/*Available ride */
+h1 {
+    margin: 50px 0px 0px 50px;
+    color:  rgb(40, 60, 77);
+}
+
+/*ride view box */
+.rides {
+    margin: 50px 0px 0px 50px;
+    font-size: 20px;
+    width: 500px;
+    height: 500px;
+    overflow-y: auto;
+    border-radius: 2px;
+    box-shadow: 10px 10px 10px 0px gray;
+    color: rgb(161, 56, 56);
+    padding: 1%;
+}
+
